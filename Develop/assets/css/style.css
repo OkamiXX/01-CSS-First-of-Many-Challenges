@@ -1,10 +1,12 @@
 /*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Sets the style for the whole html document, making the benefits section positioned at the right side.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Sets the body of the website's color.*/
 body {
     background-color: #d9dcd6;
 }
@@ -24,10 +26,12 @@ header {
     font-size: 48px;
 }
 
+/*code to make emphasis on the "s e o" letters with a different color/style.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Sets the style for the navigation bar, making the elements float to the right and with a different size/font.*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,6 +40,7 @@ header {
     font-size: 20px;
 }
 
+/*Sets the style for the unodered list to make them go to the right and with a inline block display, so they go next to each other.*/
 ul,
 li {
     list-style-type: none;
@@ -43,15 +48,19 @@ li {
     margin-left: 25px;
 }
 
+/*Sets the nav bar list of white, even when it has been used thanks to text decoration set to: none*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/*font size for paragraphs in the whole document.*/
 p {
     font-size: 16px;
 }
+
+/*Style for the image used after the navigation bar.*/
 
 .hero {
     height: 800px;
@@ -62,6 +71,8 @@ p {
     background-position: center;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Used to make th eorientation of the elements go to the desired side: left or right.*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,13 +82,17 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/*Sets the content class to be inline-block so the elements does not run in top of each other.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Sets the benefits/aside section's style, by changing font, background color and all the margins, etc.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,50 +106,24 @@ p {
     color: #ffffff;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Sets the style for the benefits/aside images style by making the diplay type to block.*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Sets all the header 3 qualities.*/
 h3 {
     margin-top: 30px;
     text-align: center;
-
-
 }
 
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Formats all the article's qualities. Font, padding and background color.*/
+.search-engine-optimization ,
+.online-reputation-management ,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,33 +133,20 @@ h3 {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Formats all the images inside the article/content class to a max height of 200px.*/
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*Sets the style for all the header 2 inside of the article/content class.*/
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Sets the style fo the footer of the website.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -178,6 +154,7 @@ h3 {
     text-align: center;
 }
 
+/*Format of the header 2 inside of the footer.*/
 .footer h2 {
     font-size: 20px;
 }
